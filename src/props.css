@@ -1,0 +1,31 @@
+.card {
+    flex: 1;
+    /* Allows the items to grow and take equal space */
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 50px;
+
+}
+
+p {
+    width: 400px;
+    margin: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 20px;
+    gap: 10px;
+}
